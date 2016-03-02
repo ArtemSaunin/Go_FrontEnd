@@ -4,7 +4,6 @@
 }  
 
 .body {
-    background: #fff;
     font: 14px/20px Verdana, Arial, Sans-Serif;
     position: absolute;
     left: 0;
@@ -136,7 +135,7 @@ img {
 
 .side_menu_item:hover {
     background-color: #f6f6f6;
-    text-indent: 10%;s
+    text-indent: 10%;
 }
 
 .footer_menu_item a:hover {
