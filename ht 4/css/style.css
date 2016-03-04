@@ -15,7 +15,7 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px 1px #000;
     box-sizing: content-box;
-} /* height need to be fixed*/
+}
 
 .header {
     width: 100%;
@@ -85,7 +85,6 @@ body {
     border-bottom: 1px solid #000;
     border-top: 1px solid #999;
     background-color: #444;
-    box-shadow: 0 2px 5px 1px #444;
 }
 
 .menu, .submenu {
@@ -117,12 +116,13 @@ ul.submenu {
     display: none;
     position: absolute;
     top: 35px;
-    left: 15px;
+    left: 25px;
 }
 
 ul.submenu > li {
     display: block;
 }
+
 ul.submenu > li > a {
     display: block;
     padding: 10px;
@@ -130,20 +130,21 @@ ul.submenu > li > a {
     background-color: #444;
     text-decoration: none;
 }
+
 ul.submenu > li > a:hover {
     text-decoration: underline;
 }
+
 ul.menu > li:hover > ul.submenu {
     display: block;
 }
 
-/* equal height columns for content */
-
 .content {
     width: 100%;  
     position: relative;
-    top: -3px;
+    top: -2px;
 }
+
 .news_bg {
     float: left;
     width: 100%;
@@ -156,12 +157,12 @@ ul.menu > li:hover > ul.submenu {
     float: left;
     width: 100%;
     background: #fff;
-    position:relative;
+    position: relative;
     right: 22%;
 }
 
 .info_bg {
-    float:left;
+    float: left;
     width: 100%;
     background: #ededed;
     position: relative;
@@ -172,6 +173,7 @@ h3 {
     text-align: center;
     margin-bottom: 10px;
 }
+
 .info {
     width: 18%;
     float: left;
