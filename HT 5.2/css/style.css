@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Tahoma, Arial; 
+}
+
+header {
+    margin: 0 auto;
+    width: 1215px;
+    height: 36px;
+    background: url(../img/header_bg.png);
+}
+
+header, .menu {
+    display: block;
+}
+
+.enter {
+    float: right;
+    margin-right: 20px;
+    background: linear-gradient(#50afdc, #2e7ac4);
+    border: 1px solid #459ad4;
+    color: #fff;
+    padding: 9px 13px;
+    font-size: 86%;
+    letter-spacing: 0.4px;
+}
+
+.enter a {
+    color: #fff;
+}
+
+.my_offers {
+    float: right;
+    margin-right: 15px;
+    border-left: 1px solid #56a2dc;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.my_offers a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 95%;
+    position: relative;
+    top: -6px;
+}
+
+.my_offers:before {
+    content: url(../img/flag.png);
+    position: relative;
+    top: 5px;
+    right: 2px;
+    margin-left: 19px;
+    margin-right: 5px;
+} 
+
+.menu li {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding: 9px 0;
+}
+
+.menu .menu_item_link {
+    text-decoration: none;
+    color: #56a2dc;
+    font-size: 85%;
+    padding: 12px 15px 9px;
+}
+
+.menu_item_link:hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.main {
+    width: 1215px;
+    clear: left;
+    background: url(../img/bg.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+    min-height: 1028px;
+}
+
+.form {
+    width: 560px;
+    height: 610px;
+    position: relative;
+    top: 213px;
+    left: 352px;
+    text-align: center;
+    
+}
+
+.form_header {
+    height: 22px;
+    background: rgba(0,0,0,0.5);
+    margin-bottom: 2px;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.form_body {
+    background: rgba(0,0,0,0.6);
+}
+
+input {
+    width: 275px;
+    height: 35px;
+    border: transparent;
+    color: #fff;
+}
+
+.fb_login input {
+    margin-top: 37px;    
+}
+
+.ou_line {
+    margin-top: 25px;
+}
+
+.first_name input {
+    margin-top: 26px;
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #494949;
+    text-indent: 16px;
+}
+
+.last_name input {
+    margin-top: 19px;
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #494949;
+    text-indent: 16px;
+}
+
+.email input {
+    margin-top: 16px;
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #494949;
+    text-indent: 16px;
+}
+
+.password input {
+    margin-top: 16px;
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #494949;
+    text-indent: 16px;
+}
+
+.password_confirm input {
+    margin-top: 13px;
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #494949;
+    text-indent: 16px;
+}
+
+input:focus {
+    background-color: #1b5288;
+    box-shadow: 0 0 8px 2px #4d87b2;
+}
+
+.send_updates {
+    margin-top: 18px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: -35px;
+}
+
+.checkbox {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+}
+
+label {
+    margin-left: 3px;
+}
+
+.submit input {
+    margin-top: 24px;
+    width: 149px;
+    height: 34px;
+    color: #fff;
+    border: 2px transparent;
+    border-radius: 3px;
+    background: linear-gradient(#4ca9d9, #2e7ac4);
+    font-size: 14px;
+    box-shadow: 0 -1px 1px 1px #67c6e6;
+    letter-spacing: .2px;
+}
+
+.terms {
+    color: #fff;
+    font-size: 11px;
+    padding: 19px 0;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+}
