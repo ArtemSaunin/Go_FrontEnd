@@ -19,6 +19,7 @@ body {
     font-family: "Helvetica Neue", Tahoma, Arial; 
 }
 
+/* navigation */
 header {
     margin: 0 auto;
     width: 1215px;
@@ -26,10 +27,7 @@ header {
     background: url(../img/header_bg.png);
 }
 
-header, .menu {
-    display: block;
-}
-
+/* sign in or registration */
 .enter {
     float: right;
     margin-right: 20px;
@@ -45,6 +43,7 @@ header, .menu {
     color: #fff;
 }
 
+/* my offers */
 .my_offers {
     float: right;
     margin-right: 15px;
@@ -70,6 +69,7 @@ header, .menu {
     margin-right: 5px;
 } 
 
+/* menu bar */
 .menu li {
     display: inline-block;
     float: right;
@@ -89,6 +89,7 @@ header, .menu {
     color: #fff;
 }
 
+
 .main {
     width: 1215px;
     clear: left;
@@ -98,6 +99,7 @@ header, .menu {
     min-height: 1028px;
 }
 
+/* sign up form */
 .form {
     width: 560px;
     height: 610px;
@@ -206,13 +208,25 @@ label {
     background: linear-gradient(#4ca9d9, #2e7ac4);
     font-size: 14px;
     box-shadow: 0 -1px 1px 1px #67c6e6;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
 }
 
 .terms {
     color: #fff;
     font-size: 11px;
-    padding: 19px 0;
-    line-height: 1.3;
+    padding: 19px 0 0;
+    letter-spacing: 0.4px;
+    line-height: 0.9;
+}
+
+/* privacy policy */
+.privacy {
+    padding-bottom: 18px;
+}
+
+.privacy a {
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
     letter-spacing: 0.4px;
 }
