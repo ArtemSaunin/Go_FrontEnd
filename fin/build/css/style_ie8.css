@@ -55,7 +55,8 @@
   .header__link-log-in:hover, .header__link-sign-up:hover, .header__link-text-up:hover {
     color: #ff4e50;
     transition: .5s;
-    cursor: pointer; }
+    cursor: pointer;
+    border: none;}
   
   .header__text-sign-up {
     display: inline-block;
