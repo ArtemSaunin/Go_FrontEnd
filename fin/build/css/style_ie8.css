@@ -63,8 +63,7 @@
     margin-left: 19px;
     width: 86px;
     height: 32px;
-    border: 2px solid #ffffff;
-    border-radius: 20px; }
+    background: url(../img/signup-border.png); }
  
   .header__text-sign-up:hover {
     border: 2px solid #ff4e50; }
