@@ -360,19 +360,18 @@
   margin-top: 308px;
   margin-left: 53px;
   text-align: center;
-  height: 39px;
-  width: 194px; 
+  height: 40px;
+  width: 192px; 
   font-family: "Montserrat Bold";
   font-size: 14px;
   color: #ff4e50;
-  background: #ffffff;
-  border: 2px solid #ff4e50;
+  background: url(../img/partners-bg-button.png) no-repeat;
   cursor: pointer;
 }
 
 .partners__button:hover {
   color: #ffffff;
-  background: #ff4e50; }
+  text-decoration: underline; }
 
 .partners__image-box:nth-child(1) {
    margin-bottom: 0px; }
