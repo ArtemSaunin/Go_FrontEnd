@@ -167,9 +167,8 @@
     background: #ff4e50;
     cursor: pointer; }
   .slider__box-context-button:hover {
-    background: #ff7173;
     color: #ffffff;
-    border: 2px solid #ff4e50;
+    text-decoration: underline;
     transition: .5s; }
   .slider__box-context-header-first, .slider__box-context-header-second {
     text-align: left;
