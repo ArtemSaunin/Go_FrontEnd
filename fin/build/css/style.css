@@ -62,8 +62,6 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     border-radius: 20px; }
-  .header__text-sign-up:hover {
-    border: 2px solid #ff4e50; }
   .header__link-sign-up {
     display: block;
     text-align: center;
