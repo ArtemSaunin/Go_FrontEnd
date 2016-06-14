@@ -201,7 +201,7 @@
         border: none;
         font-family: "Montserrat Regular";
         font-size: 10px;
-        background: #ff4e50;
+        background: url(../img/step-bg.png) no-repeat;
         color: #ffffff;
         cursor: pointer;
       }
