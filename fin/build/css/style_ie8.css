@@ -361,12 +361,13 @@
   margin-left: 53px;
   text-align: center;
   height: 40px;
-  width: 192px; 
+  width: 194px; 
   font-family: "Montserrat Bold";
   font-size: 14px;
   color: #ff4e50;
   background: url(../img/partners-bg-button.png) no-repeat;
   cursor: pointer;
+  border: none;
 }
 
 .partners__button:hover {
