@@ -275,8 +275,8 @@
   cursor: pointer; }
 
 .partners__button:hover {
-  color: #ffffff;
-  background: #ff4e50;
+  color: #ff4e50;
+  text-decoration: underline;
   transition: .5s; }
 
 /* DISCOVER */
