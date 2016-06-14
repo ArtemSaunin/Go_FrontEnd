@@ -620,7 +620,7 @@
     text-decoration: underline;}
 
 input[placeholder] {
-  padding: 10px 0 5px 15px;
+  padding: 5px 0 10px 15px;
   color: #999999;
   font-family: "Roboto Light";
   font-size: 14px; }
