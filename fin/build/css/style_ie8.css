@@ -612,6 +612,7 @@
     font-size: 14px;
     color: #ffffff;
     background: url(../img/search-bg-button.png) no-repeat;
+    border: none;
     cursor: pointer; }
 
   .search-form__submit:hover {
