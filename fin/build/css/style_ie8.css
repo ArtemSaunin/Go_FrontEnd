@@ -63,7 +63,7 @@
     margin-left: 19px;
     width: 90px;
     height: 36px;
-    background: url(../img/signup-border.png)
+    background: url(../img/signup-border.png) no-repeat;
     border: none; }
  
   .header__text-sign-up:hover {
