@@ -116,7 +116,7 @@
     border: none;
     font-family: "Montserrat Bold";
     font-size: 14px;
-    background: #ff4e50;
+    background: url(..img/button-bg-header.png) no-repeat;
     color: #ffffff;
     cursor: pointer; }
 
