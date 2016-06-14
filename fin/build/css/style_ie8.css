@@ -61,9 +61,10 @@
     display: inline-block;
     margin-top: 20px;
     margin-left: 19px;
-    width: 86px;
-    height: 32px;
-    background: url(../img/signup-border.png); }
+    width: 90px;
+    height: 36px;
+    background: url(../img/signup-border.png)
+    border: none; }
  
   .header__text-sign-up:hover {
     border: 2px solid #ff4e50; }
