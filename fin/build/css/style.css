@@ -412,7 +412,6 @@
     cursor: pointer; }
   .search-form__submit:hover {
     color: #ffffff;
-    background: #ff7173;
     transition: .5s; }
 
 input[placeholder] {
