@@ -611,13 +611,12 @@
     font-family: "Montserrat Bold";
     font-size: 14px;
     color: #ffffff;
-    background: #ff4e50;
-    border: 2px solid #ff4e50;
+    background: url(../img/search-bg-button.png) no-repeat;
     cursor: pointer; }
 
   .search-form__submit:hover {
     color: #ffffff;
-    background: #ff7173;}
+    text-decoration: underline;}
 
 input[placeholder] {
   padding-left: 15px;
