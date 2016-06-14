@@ -66,7 +66,7 @@
     background: url(../img/signup-border.png); }
  
   .header__text-sign-up:hover {
-    border: 2px solid #ff4e50; }
+    -border: 2px solid #ff4e50; }
   
   .header__link-sign-up {
     display: block;
