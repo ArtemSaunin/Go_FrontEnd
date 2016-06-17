@@ -54,7 +54,7 @@
   .header__text-sign-up {
     display: inline-block;
     margin-top: 20px;
-    margin-left: 19px;
+    margin-left: 16px;
     width: 86px;
     height: 32px;
     border: 2px solid #ffffff;
@@ -126,7 +126,7 @@
   .slider__header {
     margin-top: 35px;
     margin-left: 4px;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
     text-align: center;
     font-family: "Montserrat Bold";
     font-size: 22px;
@@ -877,7 +877,7 @@ input[placeholder]:focus {
       left: 22px; }
     .slider__header {
       margin-top: 97px;
-      margin-left: -10px; }
+      margin-left: -3px; }
   .jcarousel-wrapper {
     width: 300px; }
   .jcarousel1 li,
