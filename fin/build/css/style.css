@@ -787,7 +787,7 @@ input[placeholder]:focus {
       margin: -2px auto 0;
       padding-left: 2px;
       width: 240px;
-      height: 38px;
+      height: 36px;
       border: 1px solid #cccccc;
       border-radius: 3px; }
     .search-form__submit {
