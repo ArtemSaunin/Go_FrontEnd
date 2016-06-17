@@ -784,7 +784,7 @@ input[placeholder]:focus {
       padding-bottom: 40px; }
     .search-form__input {
       display: inline-block;
-      margin: -2px auto 0;
+      margin: 0 auto;
       padding-left: 2px;
       width: 240px;
       height: 40px;
