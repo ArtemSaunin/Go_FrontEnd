@@ -817,7 +817,7 @@ input[placeholder]:focus {
     .footer__company {
       float: left;
       text-align: left;
-      margin-top: 40px;
+      margin-top: 38px;
       margin-left: 11.5%; }
     .footer__company-menu {
       margin: 0;
@@ -1028,7 +1028,7 @@ input[placeholder]:focus {
     .footer__company {
       margin-left: 11%; }
     .footer__partners {
-      margin-left: -4.5%; }
+      margin-left: -38px; }
     .footer__designed {
       float: right;
       margin-top: 34px; } }
