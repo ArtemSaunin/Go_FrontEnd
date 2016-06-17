@@ -862,7 +862,7 @@ input[placeholder]:focus {
     .header__title-bottom {
       margin-left: -3px; }
       .header__title-bottom-first {
-        padding-left: 3px; }
+        padding-left: 4px; }
       .header__title-bottom-second {
         display: inline-block;
         padding-left: 0;
