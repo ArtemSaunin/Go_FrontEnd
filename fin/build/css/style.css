@@ -456,6 +456,9 @@ input[placeholder]:focus {
     font-family: "Montserrat Bold";
     font-size: 16px;
     color: #ff4e50; }
+  .footer__header-text {
+  	letter-spacing: 1.3px;
+  }
   .footer__company {
     text-align: center; }
   .footer__company-link, .footer__partners-link {
