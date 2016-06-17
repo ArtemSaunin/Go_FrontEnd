@@ -787,14 +787,14 @@ input[placeholder]:focus {
       margin: -2px auto 0;
       padding-left: 2px;
       width: 240px;
-      height: 36px;
+      height: 40px;
       border: 1px solid #cccccc;
       border-radius: 3px; }
     .search-form__submit {
       width: 160px;
       height: 38px;
       margin: 0;
-      margin-left: 10px; }
+      margin-left: 12px; }
     .search-form__input-box, .search-form__submit {
       display: inline-block; }
   /* FOOTER */
