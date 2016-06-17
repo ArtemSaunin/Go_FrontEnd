@@ -1031,4 +1031,5 @@ input[placeholder]:focus {
       margin-left: -38px; }
     .footer__designed {
       float: right;
-      margin-top: 34px; } }
+      margin-top: 34px;
+      margin-right: -2px;} }
