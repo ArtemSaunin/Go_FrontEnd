@@ -221,7 +221,7 @@
   #jcarousel1 {
     margin-right: 15px; }
 
-  .jcarousel-wrapper:last-child {
+  .jcarousel-wrapper--last {
     margin-left: 15px; }
 
   .jcarousel1,
