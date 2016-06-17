@@ -794,7 +794,7 @@ input[placeholder]:focus {
       width: 160px;
       height: 38px;
       margin: 0;
-      margin-left: 12px; }
+      margin-left: 10px; }
     .search-form__input-box, .search-form__submit {
       display: inline-block; }
   /* FOOTER */
