@@ -212,7 +212,8 @@
 .partners__header-first, .partners__header-second {
   font-family: "Montserrat Bold";
   font-size: 22px;
-  color: #333333; }
+  color: #333333;
+  margin-right: 2px;}
 
 .partners__header-second {
   display: block;
@@ -922,7 +923,8 @@ input[placeholder]:focus {
     .partners__second-box {
       margin-left: 0px; }
     .partners__image-box:nth-child(1) {
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      margin-left: 8px;}
     .partners__image-box {
       display: block;
       float: left;
@@ -933,7 +935,7 @@ input[placeholder]:focus {
   #partners__image-box-2,
   #partners__image-box-3,
   #partners__image-box-4 {
-    margin-left: 42px; }
+    margin-left: 40px; }
   /* DISCOVER */
   .discover {
     margin-top: 100px; }
