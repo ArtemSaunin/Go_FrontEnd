@@ -799,7 +799,10 @@ input[placeholder]:focus {
       margin: 0;
       margin-left: 10px; }
     .search-form__input-box, .search-form__submit {
-      display: inline-block; }
+      display: inline-block;
+      position: relative;
+      right: 2px;
+      top: -1px; }
   /* FOOTER */
   .footer {
     margin-top: 102px;
