@@ -1,361 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>URLAUBSGLÜCK</title>
-	<link rel="stylesheet" href="css/build/main.css">
-	<!--[if lt IE 9]>
-    	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<script>
-			document.createElement('header');
-			document.createElement('section');
-			document.createElement('footer');
-		</script>
-	<![endif]-->
+    <meta charset="UTF-8">
+    <title>Final Exam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> 
+    <link rel="stylesheet" href="build/css/reset.css">
+    <link rel="stylesheet" href="build/css/style.css">
+    <script src="build/js/jquery.jcarousel-core.min.js"></script>
+    <script src="build/js/jquery.jcarousel-control.min.js"></script>
+    <script src="build/js/jquery.jcarousel-pagination.min.js"></script>
+    <script src="build/js/jquery.jcarousel-autoscroll.min.js"></script>   
+    <script src="build/js/classList.min.js"></script>
+    <script src="build/js/script.js"></script>
+    <!--[if gte IE 8]><link href="build/css/style_ie8.css" rel="stylesheet"/>
+        <script>
+          document.createElement('header');
+          document.createElement('main');
+          document.createElement('section');
+          document.createElement('footer');
+        </script>
+    <![endif]-->
+	
 </head>
 <body>
-<div class="wrapper">
-
-	<section class="promo">
-		<div class="promo__wrap">
-			<header class="clearfix">
-				<ul class="auth">
-					<li class="auth__elem">
-						<a href="#" class="auth__link">Log in</a>
-					</li>
-					<li class="auth__elem">
-						<a href="#" class="auth__link auth__link--bord">Sign up</a>
-					</li>
-				</ul>
-
-				<div class="logo">
-					<a href="#" class="logo__link">URLAUBSGLÜCK</a>
-				</div>
-			</header>
-
-			<h1 class="promo-head1">Share your holiday dreams</h1>
-			<h2 class="promo-head2">And find the perfect partner to fullfill it</h2>
-
-			<div class="click click--desktop">
-				<a href="#" class="click__link click__link--promo">Find your holiday partner</a>
-			</div>
-		</div>
-	</section>
-	<section class="works">
-		<h1 class="head1 head1--works">How Urlaubsglück works?</h1>
-		<div class="slider-wrap">
-			<div class="slider">
-			<ul>
-				<li>
-					<section class="step step--1st">
-						<div class="click">
-							<a href="#" class="click__link click__link--works">STEP 1</a>
-						</div>
-						<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-						<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-					</section>
-				</li>
-				<li>
-					<section class="step step--2nd">
-						<div class="click">
-							<a href="#" class="click__link click__link--works2nd">STEP 2</a>
-						</div>
-						<h1 class="head1 head1--step">Morbi velit risus</h1>
-						<h2 class="promo-head2 promo-head2--works">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</h2>
-					</section>
-				</li>
-				<li>
-					<section class="step step--3rd">
-						<div class="click">
-							<a href="#" class="click__link click__link--works3rd">STEP 3</a>
-						</div>
-						<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-						<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-					</section>
-				</li>
-			</ul>
-			</div>
-			<div class="slider">
-			<ul>
-				<li>
-					<section class="step step--2nd">
-						<div class="click">
-							<a href="#" class="click__link click__link--works2nd">STEP 2</a>
-						</div>
-						<h1 class="head1 head1--step">Morbi velit risus</h1>
-						<h2 class="promo-head2 promo-head2--works">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</h2>
-					</section>
-				</li>
-				<li>
-					<section class="step step--3rd">
-						<div class="click">
-							<a href="#" class="click__link click__link--works3rd">STEP 3</a>
-						</div>
-						<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-						<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-					</section>
-				</li>
-				<li>
-					<section class="step step--1st">
-						<div class="click">
-							<a href="#" class="click__link click__link--works">STEP 1</a>
-						</div>
-						<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-						<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-					</section>
-				</li>
-			</ul>
-			</div>
-			<div class="slider">
-			<ul>
-				<li>
-					<section class="step step--3rd">
-						<div class="click">
-							<a href="#" class="click__link click__link--works3rd">STEP 3</a>
-						</div>
-						<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-						<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-					</section>
-				</li>
-				<li>
-					<section class="step step--1st">
-						<div class="click">
-							<a href="#" class="click__link click__link--works">STEP 1</a>
-						</div>
-						<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-						<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-					</section>
-				</li>
-				<li>
-					<section class="step step--2nd">
-						<div class="click">
-							<a href="#" class="click__link click__link--works2nd">STEP 2</a>
-						</div>
-						<h1 class="head1 head1--step">Morbi velit risus</h1>
-						<h2 class="promo-head2 promo-head2--works">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</h2>
-					</section>
-				</li>
-			</ul>
-			</div>
-		</div>
-
-
-		<section class="step step--1st step--320">
-			<div class="click">
-				<a href="#" class="click__link click__link--works">STEP 1</a>
-			</div>
-			<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-			<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-		</section>
-
-		<section class="step step--2nd step--320">
-			<div class="click">
-				<a href="#" class="click__link click__link--works2nd">STEP 2</a>
-			</div>
-			<h1 class="head1 head1--step">Morbi velit risus</h1>
-			<h2 class="promo-head2 promo-head2--works">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</h2>
-		</section>
-		
-		<section class="step step--3rd step--320">
-			<div class="click">
-				<a href="#" class="click__link click__link--works3rd">STEP 3</a>
-			</div>
-			<h1 class="head1 head1--step">Sed leo enim, condimentum</h1>
-			<h2 class="promo-head2 promo-head2--works">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
-		</section>
-	</section>
-	<section class="partners clearfix">
-		<h1 class="head1 head1--partners">Meet a partner for your best holiday</h1>
-		<div class="partners__768">
-			<ul class="list list--left">
-				<li class="list__elem"> 
-					<a href="#" class="list__link list__link--img1">
-						<span class="list__name">Bradley Hunter</span>
-					</a>
-					<p class="list__comment">Based in Chicago. I love playing tennis and loud music.</p>
-				</li>
-				<li class="list__elem"> 
-					<a href="#" class="list__link list__link--img2">
-						<span class="list__name">Lucas Marsha</span>
-					</a>
-					<p class="list__comment">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-				</li>
-			</ul>
-			<ul class="list list--right">
-				<li class="list__elem"> 
-					<a href="#" class="list__link list__link--img3">
-						<span class="list__name">Heather Walker</span>
-					</a>
-					<p class="list__comment">I'm a happy person that loves cats and climbing on mountains.</p>
-				</li>
-				<li class="list__elem"> 
-					<a href="#" class="list__link list__link--img4">
-						<span class="list__name">Bradley Hunter</span>
-					</a>
-					<p class="list__comment">Based in Chicago. I love playing tennis and loud music.</p>
-				</li>
-			</ul>
-		</div>
-		<div class="partners__940">
-			<ul class="list list--left">
-				<li class="list__elem"> 
-					<a href="#" class="list__link list__link--img1">
-						<span class="list__name">Bradley Hunter</span>
-					</a>
-					<p class="list__comment">Based in Chicago. I love playing tennis and loud music.</p>
-				</li>
-				<li class="list__elem"> 
-					<a href="#" class="list__link list__link--img3">
-						<span class="list__name">Heather Walker</span>
-					</a>
-					<p class="list__comment">I'm a happy person that loves cats and climbing on mountains.</p>
-				</li>
-			</ul>
-			<ul class="list list--right">
-				<li class="list__elem"> 
-					<a href="#" class="list__link list__link--img2">
-						<span class="list__name">Lucas Marsha</span>
-					</a>
-					<p class="list__comment">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-				</li>
-				
-				<li class="list__elem marg-r-0"> 
-					<a href="#" class="list__link list__link--img4">
-						<span class="list__name">Bradley Hunter</span>
-					</a>
-					<p class="list__comment">Based in Chicago. I love playing tennis and loud music.</p>
-				</li>
-			</ul>
-		</div>
-
-
-		<div class="click">
-			<a href="#" class="click__link click__link--other click__link--partners">See other partners</a>
-		</div>
-	</section>
-	<section class="ideas">
-		<h1 class="head1 head1--ideas">Discover holiday activity ideas</h1>
-
-		<ul class="acts acts--small">
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--sport">
-					<h2 class="acts__head">Sport and Activity</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--health">
-					<h2 class="acts__head">Wellnes and Health</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--extreme">
-					<h2 class="acts__head">Extreme Sports <br> and Expeditions</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--game">
-					<h2 class="acts__head">Games</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--culture acts__link--width2">
-					<h2 class="acts__head">Culture and Education</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--relax acts__link--width2">
-					<h2 class="acts__head">Relaxation</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--travel">
-					<h2 class="acts__head">Travelling</h2>
-				</a>
-			</li>
-		</ul>
-		
-		<ul class="acts acts--big">
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--sport">
-					<h2 class="acts__head">Sport and Activity</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--health">
-					<h2 class="acts__head">Wellnes and Health</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--extreme">
-					<h2 class="acts__head">Extreme Sports <br> and Expeditions</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--game">
-					<h2 class="acts__head">Games</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--culture acts__link--width2">
-					<h2 class="acts__head">Culture and Education</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--relax acts__link--width2">
-					<h2 class="acts__head">Relaxation</h2>
-				</a>
-			</li> 
-			<li class="acts__elem">
-				<a href="#" class="acts__link acts__link--travel">
-					<h2 class="acts__head">Travelling</h2>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<section class="search">
-		<h1 class="head1 head1--search">Discover holiday activity ideas</h1>
-		<h2 class="search__head2">Hi! What are your holiday interests?</h2>
-		<form action="#" name="search" class="searchform">
-			<input class="searchform__text" type="text" name="search" id="search-text" placeholder="Enter your interests">
-			<input class="click__link searchform__subm" type="submit" name="search" value="Search partners">
-		</form>
-	</section>
-	<footer class="footer clearfix">
-		<div class="footer__wrap">
-			<div class="logo logo--foo">
-				<a href="#" class="logo__link logo__link--foo">URLAUBSGLÜCK</a>
-			</div>
-			<ul class="fnav">
-				<li class="fnav__elem fnav__elem--1st">Company</li>
-				<li class="fnav__elem">
-					<a href="#" class="fnav__link">About</a>
-				</li>
-				<li class="fnav__elem">
-					<a href="#" class="fnav__link">Contacts</a>
-				</li>
-				<li class="fnav__elem">
-					<a href="#" class="fnav__link">Press</a>
-				</li>
-				<li class="fnav__elem">
-					<a href="#" class="fnav__link">Blog</a>
-				</li>
-			</ul>
-			<ul class="fnav">
-				<li class="fnav__elem fnav__elem--1st">Partners</li>
-			</ul>
-			<div class="design">
-				<span class="design__text">DESIGNED BY</span>
-				<a class="design__logo" href="#"></a>
-			</div>
-		</div>
-	</footer>
-</div>
-
-	
-	<script src="js/build/main.js"></script>
-	<!--[if lt IE 9]>
-		<script src="js/build/main-ie8.js"></script>
-	<![endif]-->
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__wrapper">
+            <div class="header__links-pos">
+                <a class="header__link-log-in" href="#">Log in</a>
+                <div class="header__text-sign-up">
+                    <a class="header__link-sign-up" href="#">Sign up</a>
+                </div>
+            </div>
+            <p class="header__title-top">URLAUBSGLÜCK</p>
+            <p class="header__title-central-1 header__title-central-1--modified">Share your</p>
+            <p class="header__title-central-2 header__title-central-2--modified">holiday dreams</p>
+            <p class="header__title-bottom"><span class="header__title-bottom-first">And find the perfect partner </span><span class="header__title-bottom-second">to fullfill it</span></p>
+            <button class="header__button">Find your holiday partner</button>
+        </div>
+        </header>
+        <!-- END OF HEADER -->
+        <!-- SLIDER -->
+        <section class="slider">
+            <p class="slider__header">How Urlaubsglück works?</p>
+            <div class="slider__box">
+                <div class="slider__box-position">
+                    <img class="slider__image" src="build/img/image1_mobile.jpg" alt="">
+                    <div class="slider__box-context">
+                        <button class="slider__box-context-button">STEP 1</button>
+                        <p class="slider__box-context-header-first">Sed leo enim,</p>
+                        <p class="slider__box-context-header-second">condimentum</p>
+                        <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+                <div class="slider__box-position">
+                    <img class="slider__image" src="build/img/image2_mobile.jpg" alt="">
+                    <div class="slider__box-context2">
+                        <button class="slider__box-context-button">STEP 2</button>
+                        <p class="slider__box-context-header-first">Morbi velit risus</p>
+                        <p class="slider__box-context-text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                    </div>
+                </div>
+                <div class="slider__box-position">
+                    <img class="slider__image" src="build/img/image3_mobile.jpg" alt="">
+                    <div class="slider__box-context">
+                        <button class="slider__box-context-button">STEP 3</button>
+                        <p class="slider__box-context-header-first">Sed leo enim,</p>
+                        <p class="slider__box-context-header-second">condimentum</p>
+                        <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="jcarousel-wrapper-position">
+                <div class="jcarousel-wrapper" id="jcarousel1">
+                    <div class="jcarousel1">
+                        <ul>
+                            <li><img src="build/img/slider_1_image1.jpg"></li>
+                            <li><img src="build/img/slider_1_image2.jpg"></li>
+                            <li><img src="build/img/slider_1_image3.jpg"></li>
+                        </ul>
+                        <div class="slider__box-context">
+                            <button class="slider__box-context-button">STEP 1</button>
+                            <p class="slider__box-context-header-first">Sed leo enim,</p>
+                            <p class="slider__box-context-header-second">condimentum</p>
+                            <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                        </div>
+                    </div>
+                    <a class="jcarousel-prev1"></a>
+                    <a class="jcarousel-next1"></a>
+                </div>
+                <div class="jcarousel-wrapper">
+                    <div class="jcarousel2">
+                        <ul>
+                            <li><img src="build/img/slider_2_image1.jpg"></li>
+                            <li><img src="build/img/slider_2_image2.jpg"></li>
+                            <li><img src="build/img/slider_2_image3.jpg"></li>
+                        </ul>
+                        <div class="slider__box-context2">
+                            <button class="slider__box-context-button">STEP 2</button>
+                            <p class="slider__box-context-header-first">Morbi velit risus</p>
+                            <p class="slider__box-context-text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                        </div>  
+                    </div>
+                    <a class="jcarousel-prev2" id="carousel-prev2"></a>
+                    <a class="jcarousel-next2" id="carousel-next2"></a>
+                </div>
+                <div class="jcarousel-wrapper jcarousel-wrapper--last">
+                    <div class="jcarousel3">
+                        <ul>
+                            <li><img src="build/img/slider_3_image1.jpg"></li>
+                            <li><img src="build/img/slider_3_image2.jpg"></li>
+                            <li><img src="build/img/slider_3_image3.jpg"></li>
+                        </ul>
+                        <div class="slider__box-context">
+                            <button class="slider__box-context-button">STEP 3</button>
+                            <p class="slider__box-context-header-first">Sed leo enim,</p>
+                            <p class="slider__box-context-header-second">condimentum</p>
+                            <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                        </div>
+                    <a class="jcarousel-prev3" id="carousel-prev3"></a>
+                    <a class="jcarousel-next3" id="carousel-next3"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF SLIDER -->
+    <!-- BLOCK PARTNER -->
+    <section class="partners">
+        <div class="partners__header">
+            <span class="partners__header-first">Meet a partner for your</span>
+            <span class="partners__header-second">best holiday</span>
+        </div>
+        <div class="partners__boxes-position">
+            <div class="partners__first-box">
+                <div class="partners__image-box" id="partners__image-box-1">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_1.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_1.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Bradley Hunter</p>
+                    <p class="partners__image-box-description">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+                <div class="partners__image-box" id="partners__image-box-2">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_3.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_3.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Heather Walker</p>
+                    <p class="partners__image-box-description">I'm a happy person that loves cats and climbing on mountains.</p>
+                </div>
+            </div>
+            <div class="partners__second-box">
+                <div class="partners__image-box" id="partners__image-box-3">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_2.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_2.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Lucas Marsha</p>
+                    <p class="partners__image-box-description">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+                </div>
+                <div class="partners__image-box" id="partners__image-box-4">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_4.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_4.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Bradley Hunter</p>
+                    <p class="partners__image-box-description">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+            </div>
+        </div>
+        <div class="partners__button-position">
+            <button class="partners__button">See other partners</button>
+        </div>
+    </section>
+    <!-- END BLOCK PARTNER -->
+    <!-- DISCOVER BLOCK -->
+    <main class="discover">
+        <div class="discover__header">
+            <span class="discover__header-first-part">Discover holiday activity</span>
+            <span class="discover__header-second-part">ideas</span>
+        </div>
+        <div id="picstest"></div>
+        <div id="pics"></div>
+        <div id="loading">Loading...</div>
+        <div class="discover__header" id="discover__header2">
+            <span class="discover__header-first-part">Discover holiday activity</span>
+            <span class="discover__header-second-part">ideas</span>
+			<p class="search-form__header">Hi! What are your holiday interests?</p>
+			<input class="search-form__input" title="Enter your interests" type="text" id="tags" size="30" value=" "/>
+			<input type="submit" class="search-form__submit" id="update" value="Search partners"></input>
+       </div>
+    </main>
+    <!-- END DISCOVER BLOCK -->
+    <!-- FOOTER-->
+    <footer class="footer">
+        <div class="footer__wrapper">
+        <div class="footer__header">
+            <p class="footer__header-text">URLAUBSGLÜCK</p>
+        </div>
+        <div class="footer__company">
+            <p class="footer__company-text"><a class="footer__company-link" href="#">Company</a></p>
+            <ul class="footer__company-menu">
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">About</a>
+                </li>
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">Contacts</a>
+                </li>
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">Press</a>
+                </li>
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__partners">
+            <p class="footer__partners-text"><a class="footer__partners-link" href="#">Partners</a></p>
+        </div>
+        <div class="footer__designed">
+            <p class="footer__designed-text"><a href="#" class="footer__designed-link">DESIGNED BY</a></p>
+            <a href="#" class="footer__designed-link"><img class="footer__designed-image" src="build/img/footer_designed_logo.png" alt=""></a>
+        </div>
+        </div>
+    </footer>
+    </div> <!-- END OF WRAPPER -->  
 </body>
 </html>
